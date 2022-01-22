@@ -1,0 +1,72 @@
+//- index.pug
+doctype html
+html
+  head
+    title Anubhav Dance Academy 
+    style           
+      include ../static/style.css
+    link(rel="shortcut icon", href="./static/Images/favicon.png", type="image/png")
+  body
+    nav#navbar
+      ul 
+        #logo 
+          img(src="/static/Images/favicon.png", alt="")
+          | ADA
+        li #[a(href='/') Home ]
+        li #[a(href='/') About ]
+        li #[a(href='/') Services ]
+        li #[a(href='/') Class Info ]
+        li #[a(href='/') Contact Us ]
+        
+    section#introSection 
+       div Welcome to Anubhav Dance Academy 
+       div.small Eat Sleep Dance Reapeat 
+    
+    section#missionSection 
+      h2 Our Mission 
+      div.card
+        h3 Let you feel Dance 
+        .card-box 
+          .card-img 
+            img(src="/static/Images/mission1.jpg", alt="")
+          .card-content 
+            p This is th best content available.    
+      div.card
+        h3 Make you Expert 
+        .card-box 
+          .card-img 
+            img(src="/static/Images/mission2.jpg", alt="")
+          .card-content 
+            p This is th best content available.    
+
+
+      div.card
+        h3 Take you forward 
+        .card-box 
+          .card-img 
+            img(src="/static/Images/mission3.jpg" , alt="")
+          .card-content 
+            p This is th best content available.    
+    section#sponserSection 
+      h2 Our sponsers
+      #sponsors 
+        img(src="/static/Images/sponsor1.png", alt="N")
+        img(src="/static/Images/sponsor2.ico", alt="N")
+        img(src="/static/Images/sponsor3.png", alt="N")
+        img(src="/static/Images/sponsor4.png", alt="N")
+        img(src="/static/Images/sponsor5.png", alt="N")
+    section#footerSection  
+      | copyright © 2021 Anubhav Dance Academy 
+
+    script
+      include ../static/index.js
+        
+      
+
+
+
+
+
+
+
+
